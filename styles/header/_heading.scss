@@ -1,0 +1,16 @@
+@mixin base {
+    text-align: center;
+   text-transform: uppercase;
+   position: absolute;
+   bottom: 0px;
+   left: 0;
+   right: 0;
+   color: #fff;
+   font-family: Anton;
+   letter-spacing: 20px;
+   font-size: 100px;
+}
+
+&__heading {
+    @include base;
+}

@@ -1,0 +1,12 @@
+@mixin base {
+    padding: 20px;
+    // background-color: #3e3b3f;  
+}
+
+.nav {
+    @include base;
+
+    @import 'list';
+    @import 'item';
+    @import 'link';
+}

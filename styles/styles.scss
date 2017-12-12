@@ -1,8 +1,14 @@
+@import 'header/header';
+@import 'nav/nav';
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: #dedede;
-    color: #111;
+    color: #232323;
+    margin: 0;
+    padding: 0;
+    font-family: open sans;
+    font-weight: 200;
 }
