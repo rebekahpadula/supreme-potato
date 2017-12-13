@@ -1,0 +1,14 @@
+@mixin base {
+    padding: 20px;
+    background-image: url('../../assets/keyboard-5.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.contact {
+    @include base;
+
+    @import 'container';
+    @import 'heading';
+}

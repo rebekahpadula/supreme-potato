@@ -1,0 +1,11 @@
+@mixin base {
+    background-color: #191919;
+    padding: 20px;
+}
+
+.music {
+    @include base;
+
+    @import 'container';
+    @import 'image';
+}

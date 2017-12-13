@@ -1,5 +1,11 @@
+@import 'mixins';
+
 @import 'header/header';
 @import 'nav/nav';
+@import 'music/music';
+@import 'tracklist/tracklist';
+@import 'events/events';
+@import 'contact/contact';
 
 * {
     box-sizing: border-box;
@@ -11,4 +17,12 @@ body {
     padding: 0;
     font-family: open sans;
     font-weight: 200;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+ul {
+    padding: 0;
 }

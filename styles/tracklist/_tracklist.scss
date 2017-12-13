@@ -1,0 +1,14 @@
+@mixin base {
+    margin-top: 40px;
+    color: #fff;
+    padding: 60px;
+    width: 350px;
+}
+
+.tracklist {
+    @include base;
+
+    @import 'list';
+    @import 'item';
+    @import 'number';
+}

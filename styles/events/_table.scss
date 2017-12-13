@@ -1,0 +1,9 @@
+@mixin base {
+    color: #232323;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+&__table {
+    @include base;
+}

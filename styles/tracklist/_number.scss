@@ -1,0 +1,7 @@
+@mixin base {
+    margin-right: 30px;
+}
+
+&__number {
+    @include base;
+}

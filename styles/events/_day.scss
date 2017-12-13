@@ -1,0 +1,8 @@
+@mixin base {
+    text-transform: uppercase;
+    width: 100px;
+}
+
+&__day {
+    @include base;
+}

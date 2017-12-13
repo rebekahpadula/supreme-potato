@@ -1,0 +1,12 @@
+@mixin base {
+    padding: 10px;
+
+    &:hover {
+        background-color: #3e3b3f;
+        cursor: pointer;
+    }
+}
+
+&__item {
+    @include base;
+}

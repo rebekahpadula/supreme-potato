@@ -1,0 +1,7 @@
+@mixin base {
+    min-height: 90vh;
+}
+
+&__container {
+    @include base;
+}

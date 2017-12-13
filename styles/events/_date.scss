@@ -1,0 +1,7 @@
+@mixin base {
+    width: 200px;
+}
+
+&__date {
+    @include base;
+}
