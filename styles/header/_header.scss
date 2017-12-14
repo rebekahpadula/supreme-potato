@@ -1,12 +1,11 @@
 @mixin base {
-    background:url('../../assets/keyboard-7.jpg');
+    background:url('../../assets/girl-at-piano.jpg');
     width: 100%;
     height: 90vh;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    filter: grayscale(100%);
     position: relative;
 }
 

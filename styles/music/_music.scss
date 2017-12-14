@@ -1,5 +1,8 @@
 @mixin base {
-    background-color: #191919;
+    background-color: $black-darkest;
+    // background-image: url("../../assets/upright-piano.jpeg");
+    // background-size: cover;
+    // background-position: center;
     padding: 20px;
 }
 
