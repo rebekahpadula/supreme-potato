@@ -1,9 +1,13 @@
 @mixin base {
     padding: 20px;
-    background-image: url('../../assets/keyboard-5.jpg');
+    background-image: url('../../assets/girl-playing-guitar.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+
+    @media screen and (min-width: 1200px) {
+        background-position: top;
+    }
 }
 
 .contact {
@@ -11,4 +15,6 @@
 
     @import 'container';
     @import 'heading';
+    @import 'list';
+    @import 'item';
 }

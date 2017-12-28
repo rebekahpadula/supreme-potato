@@ -2,6 +2,19 @@
     text-decoration: none;
     font-size: 18px;
     color: #232323;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    // padding-left: 30px;
+    // padding-left: 30px;
+    // letter-spacing: 3px;
+    // transition: border-top, 1s;
+    font-family: open sans;
+
+    &:hover {
+        // letter-spacing: 3px;
+        border-top: 2px solid $black-darkest;
+        border-bottom: 2px solid $black-darkest;
+    }
 }
 
 &__link {
