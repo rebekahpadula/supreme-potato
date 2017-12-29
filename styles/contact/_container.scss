@@ -1,5 +1,6 @@
 @mixin base {
     min-height: 90vh;
+    position: relative;
 }
 
 &__container {

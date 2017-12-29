@@ -1,0 +1,15 @@
+@mixin base {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+}
+
+&__heading {
+    @include base;
+}

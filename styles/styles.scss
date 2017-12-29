@@ -28,38 +28,3 @@ body {
 ul {
     padding: 0;
 }
-
-.fa-facebook:before {
-    color: #fff;
-
-    &:hover {
-        color: #3b5998;
-    }
-}
-
-.icon-link {
-    width: 60px;
-    font-size: 36px;
-    height: 60px;
-    // background-color: #666;
-    line-height: 60px;
-    text-align: center;
-    vertical-align: middle;
-    display: inline-block;
-    cursor: pointer;
-    // outline: none;
-    margin: 5px;
-    // -webkit-box-sizing: content-box;
-    // box-sizing: content-box;
-  }
-  .icon-link.fill.facebook {
-    background-color: #3b5998;
-  }
-//   .icon-link.fill.facebook:hover {
-//     background-color: #fff;
-//   }
-//   .icon-link.fill.facebook:hover .fa-facebook {
-//     color: #3b5998;
-//     -webkit-transition: color 150ms ease-in-out;
-//     transition: color 150ms ease-in-out;
-//   }

@@ -18,3 +18,68 @@
     @import 'list';
     @import 'item';
 }
+
+.fa-facebook:before {
+    color: #fff;
+
+    &:hover {
+        color: #3b5998;
+    }
+}
+
+.icon-link.fill.youtube {
+    background-color: #df1c31;
+    color: #fff;
+}
+
+  .icon-link.fill.envelope {
+    background-color: #267cd4;
+    color: #fff;
+}
+
+  .icon-link.fill.soundcloud {
+    background-color: #f50;
+    color: #fff;
+}
+
+.icon-link.fill.instagram {
+    color: #fff;
+    font-size: 50px;
+    background:
+    // left bottom
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    // left top
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    //  right top
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    // right bottom
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+    /////// create a base coat to smooth corner gradients
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.icon-link {
+    width: 60px;
+    font-size: 36px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+    transition: scale, 0.1s;
+    border-radius: 5px;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+  }
+
+  .icon-link.fill.facebook {
+    background-color: #3b5998;
+  }
