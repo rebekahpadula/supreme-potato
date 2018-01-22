@@ -2,9 +2,19 @@
     padding: 10px;
 
     &:hover {
-        background-color: #3e3b3f;
+        // background-color: #3e3b3f;
         cursor: pointer;
     }
+}
+
+.tracklist__item:nth-child(odd):hover {
+    background-color: $gray-light;
+    color: $black
+}
+
+.tracklist__item:nth-child(even):hover {
+    background-color: $pink-light;
+    color: $black;
 }
 
 &__item {
