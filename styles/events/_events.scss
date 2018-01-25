@@ -1,10 +1,9 @@
 @mixin base {
-    // background-image: url('../../assets/silver-glitter-2.jpg');
-    // background-color: #232323;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
     padding: 20px;
+    background-color: $blue-light;
 }
 
 .events {
